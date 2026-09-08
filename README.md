@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/screenshots/dashboard.png" alt="VYRA Dashboard" width="100%"/>
-
 # ⚡ VYRA — Context Intelligence
 ### *Understand More. Do More.*
 
@@ -61,6 +59,10 @@ VYRA is the **connective tissue** between all these isolated information sources
 | Works on iQOO 15 NPU | ❌ Generic API | ✅ QNN HTP-optimized |
 | Privacy guarantee | ❌ Data uploaded | ✅ Zero telemetry |
 | Grounded citations | ❌ No sources | ✅ Every answer cited to source |
+
+> 📸 **See VYRA in action below — the live laptop workspace running on iQOO 15:**
+
+![VYRA Dashboard — Live Intelligence Command Center](docs/screenshots/dashboard.png)
 
 ---
 
