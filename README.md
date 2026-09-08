@@ -1,9 +1,11 @@
 <div align="center">
 
-# ⚡ VYRA — Context Intelligence
-### *Understand More. Do More.*
+<img src="docs/screenshots/logo.png" alt="VYRA — Context Intelligence Logo" width="320" style="border-radius: 20px; box-shadow: 0 8px 32px rgba(0, 229, 255, 0.2); margin-bottom: 18px;"/>
 
-**An iQOO-native contextual intelligence layer built for the Snapdragon 8 Elite Hexagon NPU.**
+# ⚡ VYRA — Context Intelligence
+### *Understand More. Do More. Your Context, Remembered.*
+
+**An iQOO-native contextual intelligence layer built for the Snapdragon 8 Elite Hexagon NPU.**  
 *See it → Understand it → Remember it → Ask about it → Act on it.*
 
 [![Built for iQOO 15](https://img.shields.io/badge/Built%20for-iQOO%2015-00E5FF?style=for-the-badge&logo=android)](https://www.iqoo.com)
@@ -60,9 +62,15 @@ VYRA is the **connective tissue** between all these isolated information sources
 | Privacy guarantee | ❌ Data uploaded | ✅ Zero telemetry |
 | Grounded citations | ❌ No sources | ✅ Every answer cited to source |
 
-> 📸 **See VYRA in action below — the live laptop workspace running on iQOO 15:**
+---
 
-![VYRA Dashboard — Live Intelligence Command Center](docs/screenshots/dashboard.png)
+## ⚡ Live Workspace in Action
+
+> **The Unified Command Center**: As context is captured across your iQOO 15 (via CameraX documents and on-device meeting voice recording), it streams securely over local WebSocket to your laptop workspace. The dashboard presents real-time Hexagon NPU telemetry (18ms latency), auto-extracted action items, impending deadlines, and indexed memories with zero cloud dependency.
+
+<div align="center">
+  <img src="docs/screenshots/dashboard.png" alt="VYRA Live Intelligence Command Center" width="100%" style="border-radius: 12px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);"/>
+</div>
 
 ---
 
