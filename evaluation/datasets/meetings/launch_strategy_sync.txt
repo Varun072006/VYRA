@@ -1,0 +1,11 @@
+MEETING TRANSCRIPT: LAUNCH STRATEGY & SCHEDULE SYNC
+Date: September 8, 2026
+Participants: Varun (Lead), Ravi (Telemetry), Maya (Product)
+
+[00:01:14] Varun: "Alright team, based on yesterday's document review for Project Alpha, we need to adjust our delivery timeline."
+[00:01:28] Maya: "Are we keeping the Wednesday launch or moving it?"
+[00:01:35] Varun: "Let's move the launch to Friday. That gives us buffer for the revised design submission."
+[00:01:42] Maya: "Agreed. What about the live NPU telemetry metrics on the dashboard?"
+[00:01:48] Varun: "Ravi, can you update the dashboard telemetry by Thursday afternoon?"
+[00:01:54] Ravi: "Yes, I will update the dashboard telemetry and test the WebSocket bridge."
+[00:02:02] Varun: "Perfect. Key takeaway: Launch moved to Friday, Ravi updates dashboard."
