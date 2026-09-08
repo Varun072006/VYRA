@@ -45,3 +45,5 @@ ENV/
 # OS / Temporary
 *.tmp
 *.bak
+*.sqlite
+*.sqlite-journal

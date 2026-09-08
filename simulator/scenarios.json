@@ -1,0 +1,64 @@
+{
+  "scenarios": {
+    "documentScan": {
+      "name": "CameraX + PaddleOCR: Project Alpha",
+      "steps": [
+        {
+          "type": "ocr.result",
+          "delayMs": 500,
+          "payload": {
+            "text": "PROJECT ALPHA BRIEF\nStatus: Revised design required.\nDeadline: September 18, 2026.\nAction: Submit revised design to team lead.",
+            "confidence": 0.98,
+            "latencyMs": 42
+          }
+        },
+        {
+          "type": "context.created",
+          "delayMs": 1200,
+          "payload": {
+            "id": "ctx-sim-001",
+            "type": "DEADLINE",
+            "title": "Project Alpha",
+            "content": "Revised design required. Submission deadline: September 18.",
+            "confidence": 0.96,
+            "sourceType": "CAMERA",
+            "date": "September 18, 2026",
+            "action": "Submit revised design",
+            "owner": "Design Lead",
+            "relatedEntities": ["Project Alpha", "Revised Design"]
+          }
+        }
+      ]
+    },
+    "meetingAudio": {
+      "name": "whisper.cpp Voice: Strategy & Reschedule",
+      "steps": [
+        {
+          "type": "caption.update",
+          "delayMs": 400,
+          "payload": {
+            "text": "Let's move the launch to Friday and have Ravi update the dashboard.",
+            "confidence": 0.95,
+            "latencyMs": 165
+          }
+        },
+        {
+          "type": "context.created",
+          "delayMs": 1000,
+          "payload": {
+            "id": "ctx-sim-002",
+            "type": "DECISION",
+            "title": "Client Review Sync",
+            "content": "Launch moved to Friday. Revised design must be completed first.",
+            "confidence": 0.94,
+            "sourceType": "MEETING",
+            "date": "Friday",
+            "action": "Ravi to update dashboard",
+            "owner": "Ravi",
+            "relatedEntities": ["Project Alpha", "Ravi", "Friday Launch"]
+          }
+        }
+      ]
+    }
+  }
+}

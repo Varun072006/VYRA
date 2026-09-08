@@ -1,0 +1,13 @@
+{
+  "name": "vyra-simulator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "simulate": "node runner.js all",
+    "simulate:doc": "node runner.js doc",
+    "simulate:voice": "node runner.js voice"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
